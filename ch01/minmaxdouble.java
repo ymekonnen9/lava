@@ -1,0 +1,6 @@
+public class minmaxdouble {
+  public static void main(String[] args) {
+    System.out.println(Math.nextUp(0));
+    System.out.println(Double.MAX_VALUE);
+  }
+}
