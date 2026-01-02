@@ -1,8 +1,10 @@
 public class Equality {
   public static void main(String[] args) {
     String location = "Los Angeles";
-    String home2 = "Los Angeles is so nice".substring(0, 11);
-    System.out.println(location != home2);
-    System.out.println(location.equals(home2));
+    String[] home2 = new String[] { "Los", " ", "Angeles" };
+    String location2 = String.join("", home2);
+    System.out.println(location2);
+    System.out.println(location != location2);
+    System.out.println(location.equals(location2));
   }
 }
