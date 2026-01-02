@@ -13,8 +13,8 @@ public class UnsignedInt {
     Long difference = Integer.toUnsignedLong(n1) - Integer.toUnsignedLong(n2);
     BigInteger product = BigInteger.valueOf(Integer.toUnsignedLong(n1))
         .multiply(BigInteger.valueOf(Integer.toUnsignedLong(n2)));
-    double quotient = Integer.divideUnsigned(n1, n2);
-    double remainder = Integer.remainderUnsigned(n1, n2);
+    int quotient = Integer.divideUnsigned(n1, n2);
+    int remainder = Integer.remainderUnsigned(n1, n2);
     System.out.print(sum + "\n" + difference + "\n" + product + "\n" + quotient + "\n" + remainder);
   }
 }
